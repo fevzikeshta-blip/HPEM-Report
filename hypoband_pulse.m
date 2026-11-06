@@ -17,7 +17,6 @@ on = (t >= tau) & (t <= tau + D);
 a(on) = sin(2*pi*f0*(t(on)-tau));
 
 %% (b) Analytical Fourier-transform magnitude
-% Equivalent to the book formula, with absolute value and the limit at f0.
 % A time delay changes phase, but not spectral magnitude.
 f = unique(sort([logspace(log10(3e6), log10(5e9), 80000), ...
                  f0, f0-1/D, f0+1/D]));
@@ -29,7 +28,7 @@ A(~atCarrier) = abs(2*w0*sin(w(~atCarrier)*D/2) ./ ...
                          (w0^2-w(~atCarrier).^2));
 A(atCarrier) = D/2;       % Exact carrier magnitude: 1e-8 s
 
-%% Plots with the book's axis ranges
+
 %% Figure 1: Time-domain waveform
 figure('Color','w');
 
