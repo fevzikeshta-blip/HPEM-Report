@@ -1,6 +1,6 @@
 %% Hypoband long-pulse examples
 % 1 GHz carrier, 60 us rectangular pulse, PRF = 1000 Hz.
-% No additional toolboxes required.
+
 clear; clc; close all;
 
 %% Parameters
@@ -54,7 +54,7 @@ grid on; box on;
 
 %% 2. Analytical spectrum of ONE rectangular RF burst
 % Fourier transform convention: integral a(t)*exp(-j*2*pi*f*t) dt
-% This is not the line spectrum of an infinite periodic train.
+
 
 df = linspace(-100e3,100e3,40001);
 f = f0 + df;
