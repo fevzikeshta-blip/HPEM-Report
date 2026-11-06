@@ -1,5 +1,5 @@
 %% Mesoband waveform and spectrum: reproduce the book's graphs
-% No additional toolboxes required.
+
 clear; clc; close all;
 
 %% Parameters inferred from the book's graphs
