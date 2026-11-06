@@ -1,7 +1,5 @@
 %% Reproduce the 20-cycle RF burst and its analytical spectrum
-% No additional toolboxes required.
 % A 20 ns burst delayed by 1 ns ends at 21 ns.
-% The printed book equation's endpoint NT would instead give 19 cycles.
 clear; clc; close all;
 
 %% Parameters
