@@ -1,8 +1,7 @@
-%% Mesoband waveform and spectrum: reproduce the book's graphs
-
+%% Mesoband waveform and spectrum:
 clear; clc; close all;
 
-%% Parameters inferred from the book's graphs
+%% Parameters
 f0    = 1e9;              % Sinusoidal frequency: 1 GHz
 w0    = 2*pi*f0;          % Angular frequency (rad/s)
 alpha = 1e8;              % Damping coefficient (1/s)
