@@ -1,5 +1,4 @@
 %% Analytical electric-field spectra of E1, E2 and E3
-% Requires the parameters defined earlier in your script.
 % Fourier convention:
 % Etilde(f) = integral E(t)*exp(-1i*2*pi*f*t) dt
 % Units: (V/m)*s = (V/m)/Hz
