@@ -1,7 +1,5 @@
 %% HEMP E1, E2 and E3 reference waveforms
-% Parameters taken from the supplied textbook figure.
 % All calculations use time in seconds and electric field in V/m.
-% No additional toolboxes required.
 
 clear; clc; close all;
 
